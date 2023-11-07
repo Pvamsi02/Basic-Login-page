@@ -24,6 +24,7 @@ code {
   padding: 20px;
   text-align: center;
   width: 90%;
+  box-shadow: 10px 10px 5px lightblue;
 }
 .mbox form {
   display: flex;
