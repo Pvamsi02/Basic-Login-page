@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.center {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+.mbox {
+  border: 1px solid #dcdcdc;
+  max-width: 400px;
+  padding: 20px;
+  text-align: center;
+  width: 90%;
+}
+.mbox form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0 auto 10px;
+}
+.mbox form>input, button {
+  font-size: 16px;
+  height: 40px;
+  padding: 0 10px;
+}
